@@ -1,0 +1,294 @@
+@font-face 
+{
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face 
+{
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Black.ttf') format('truetype');
+	font-weight: bolder;
+}
+
+@font-face 
+{
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{ /*Por el nombre del elemento*/
+	padding: 0px 10px 50px 20px; /*si pongo los 4 valores, modifica en sentido horario*/
+	padding: 0px 10px; /*si pongo 2 valores el primero corresponde a top-bottom y el segundo a left-right*/
+	margin: 40px 40px;
+	font-family: 'Lato', sans-serif; /*especifico que todo lo que se escriba en body va en fuente Lato o si no la encuentra en sans-serif*/
+}
+
+* 
+{	
+	margin: 0; 
+	padding: 0;
+}	
+
+
+html 
+{ 
+	background:url('/img/bg.JPG') no-repeat 0px 0px;
+	/*http://www.borongaja.com/data_images/out/11/615714-view-of-green-mountain.jpg*/
+	background-size:cover;
+	min-height:768px;
+}
+
+body
+{
+	margin: 0; 
+	padding: 0;
+}
+
+
+.header_container, .home_menu
+{
+	margin: 0 0 40px 0;
+	padding: 0;
+	background: #000;
+	opacity: 0.7;
+	border-bottom: 3px #00cc88 solid; 
+}
+
+
+.header h1
+{
+	margin: 0 0 10px 100px;
+	padding: 0;
+	text-align: left;
+	font-family: 'Merienda', cursive;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.form_container li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+.header span 
+{
+	color: #00cc88;
+}
+
+.separator 
+{ 	height: 2px; 
+	background-color: #fff;
+}
+
+
+.col-md-4, .col-md-6
+{
+	margin:0;
+	color: #fff;
+	padding:2px;
+}
+
+#forget
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.header h3
+{
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+.header a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+header .menu li
+{
+	margin: 5px 0 10px 0;
+	padding: 0;
+	display: inline-block;
+	width:16%;
+	text-align: center;
+}
+
+#opc_r 
+{
+	margin-left: 15px;
+}
+
+
+header .menu li a
+{
+	display: block;
+	color: #000;
+	height: 30px;
+	line-height:30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+
+header .menu li a:hover, header .menu li a:focus
+{
+	background: #00cc88;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.styled-select
+{
+	margin: 10px;
+   	height: 32px;
+   	width: 40%;
+   	padding-top: 5px;
+   	padding-bottom: 5px;
+   	font-size: 15px;
+   	background-color: #fff;
+}
+
+#registry_type
+{ 
+	margin-bottom: 15px;
+}
+
+
+.id_type_select
+{
+	margin-left: 10px;
+	margin-right: 0; 
+   	height: 30px;
+   	width: 7%;
+   	padding-top: 5px;
+   	padding-bottom: 5px;
+   	font-size: 15px;
+   	background-color: #fff;
+}
+
+#cg_id_type
+{
+	width: 5%;
+
+}
+
+#id_cg
+{
+	width: 35%;
+}
+
+
+.id_field 
+{
+	width: 30%; 
+	height: 25px;
+	margin-left: 0;
+	margin-right: 5px; 
+}
+
+#directed 
+{
+	margin-left: 20px;
+	width: 39%;
+}
+
+#ad_gender_type, #ad_country, #u_gender_type, #u_country 
+{ 
+	margin-left: 0;
+}
+
+
+
+.text_field
+{
+	margin: 15px 20px 10px 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 40%; 
+	display: inline-block;
+	background-color: #fff;
+}
+
+
+.form_container
+{
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	background: #000;
+	opacity: 0.8; 
+	padding: 15px;
+}
+
+.form_container_custom
+{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	width: 100%;
+	background: #000;
+	opacity: 0.8; 
+	padding: 15px;
+	align-content: center;
+
+}
+
+.radio_opt
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+p
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#adult_registry, #underage_registry, #age_selector, #prod_fields, #home_registry,
+#habs_registry, #farm_registry, #const_registry, #meeting_registry, #fee_registry,
+#signup_form, #login_form
+{
+	display: none;
+}
+
+.button 
+{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin-right: 20px;
+	background-color: #fff;
+	text-decoration-color: #000;
+	font-size: 18px;
+	border-radius: 25px;
+}
